@@ -360,11 +360,11 @@ public class SalesHomePage extends WebDriverUtility
 			handleDropdown(oemModelDropdown1, oemModel1);
 			handleDropdown(cpeModelDropdown1, cpeModel1);
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
-			addAnotherTxt.click();
-			Thread.sleep(2000);
-			handleDropdown(oemModelDropdown2, oemModel2);
-			handleDropdown(cpeModelDropdown2, cpeModel2);
-			noOfDevicesTxtField2.sendKeys(noOfDevices2);
+//			addAnotherTxt.click();
+//			Thread.sleep(2000);
+//			handleDropdown(oemModelDropdown2, oemModel2);
+//			handleDropdown(cpeModelDropdown2, cpeModel2);
+//			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			saveBtn.click();
 			
 		}
