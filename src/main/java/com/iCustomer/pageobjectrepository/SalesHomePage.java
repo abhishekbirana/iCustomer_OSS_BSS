@@ -327,6 +327,7 @@ public class SalesHomePage extends WebDriverUtility
 	
 	public void enterTechnicalRequirementDetails(WebDriver driver, String existingRoutingProtocol, String securityRequirements, String publicCloudAccessToggleBtn, String publicCloudAccess, String cpeRequirement, String oemModel1, String oemModel2, String cpeModel1, String cpeModel2, String noOfDevices1, String noOfDevices2, String topology, String internetRequired) throws Exception
 	{
+		System.out.println("1");
 		handleDropdown(ExistingRoutingProtocolDropdown, existingRoutingProtocol);
 		Thread.sleep(2000);
 		if (securityRequirements.contains("URL Filtering"))
@@ -346,13 +347,14 @@ public class SalesHomePage extends WebDriverUtility
 			intrusionPreventionSystemCheckbox.click();
 		}
 		
-		
+		System.out.println("2");
 		if (publicCloudAccessToggleBtn.contains("Yes"))
 		{
 			publicCloudAccessTglBtn.click();
 			handleDropdown(publicCloudAccessDropdown, publicCloudAccess);
 			
 		}		
+		System.out.println("3");
 		if (cpeRequirement.contains("Yes"))
 		{
 			cpeRequirementTglBtn.click();
@@ -367,10 +369,13 @@ public class SalesHomePage extends WebDriverUtility
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			saveBtn.click();
 		}
-		
+		System.out.println("4");
 		handleDropdown(topologyDD, topology);
+		System.out.println("5");
 		handleDropdown(internetRequiredDD, internetRequired);
+		System.out.println("6");
 		saveInfoBtn2.click();
+		System.out.println("7");
 		
 	}
 	
