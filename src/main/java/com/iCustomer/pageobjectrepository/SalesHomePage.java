@@ -327,7 +327,6 @@ public class SalesHomePage extends WebDriverUtility
 	
 	public void enterTechnicalRequirementDetails(WebDriver driver, String existingRoutingProtocol, String securityRequirements, String publicCloudAccessToggleBtn, String publicCloudAccess, String cpeRequirement, String oemModel1, String oemModel2, String cpeModel1, String cpeModel2, String noOfDevices1, String noOfDevices2, String topology, String internetRequired) throws Exception
 	{
-		System.out.println("1");
 		handleDropdown(ExistingRoutingProtocolDropdown, existingRoutingProtocol);
 		Thread.sleep(2000);
 		if (securityRequirements.contains("URL Filtering"))
@@ -354,24 +353,18 @@ public class SalesHomePage extends WebDriverUtility
 			handleDropdown(publicCloudAccessDropdown, publicCloudAccess);
 			
 		}		
-		System.out.println("2");
 		if (cpeRequirement.contains("Yes"))
 		{
 			cpeRequirementTglBtn.click();
 			enterCPEDetailsTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
 			handleDropdown(cpeModelDropdown1, cpeModel1);
-			System.out.println("3");
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
-			System.out.println("4");
 			addAnotherTxt.click();
-			System.out.println("5");
-			scrollActionToElement(driver, oemModelDropdown2);
-			System.out.println("6");
+			Thread.sleep(2000);
 			handleDropdown(oemModelDropdown2, oemModel2);
 			handleDropdown(cpeModelDropdown2, cpeModel2);
 			noOfDevicesTxtField2.sendKeys(noOfDevices2);
-			System.out.println("7");
 			saveBtn.click();
 			
 		}
