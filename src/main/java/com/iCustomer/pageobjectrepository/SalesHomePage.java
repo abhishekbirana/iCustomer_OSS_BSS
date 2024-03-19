@@ -357,6 +357,7 @@ public class SalesHomePage extends WebDriverUtility
 		System.out.println("3");
 		if (cpeRequirement.contains("Yes"))
 		{
+			System.out.println("3.1");
 			cpeRequirementTglBtn.click();
 			enterCPEDetailsTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
