@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T12:59:05 IST" name="Suite" finished-at="2024-03-19T13:01:24 IST" duration-ms="138962">
+    <groups>
+    </groups>
+    <test started-at="2024-03-19T12:59:05 IST" name="Test" finished-at="2024-03-19T13:01:24 IST" duration-ms="138962">
+      <class name="com.iCustomer.CreateNewOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:05 IST" name="bsConfig" finished-at="2024-03-19T12:59:05 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:05 IST" name="bcConfig" finished-at="2024-03-19T12:59:18 IST" duration-ms="12665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:18 IST" name="bmConfig" finished-at="2024-03-19T12:59:21 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:21 IST" name="launchiCustomerProduct" finished-at="2024-03-19T12:59:36 IST" duration-ms="14330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchiCustomerProduct -->
+        <test-method signature="open360HomeModule()[pri:2, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:36 IST" name="open360HomeModule" finished-at="2024-03-19T12:59:39 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open360HomeModule -->
+        <test-method signature="fillDetails()[pri:3, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:39 IST" name="fillDetails" finished-at="2024-03-19T12:59:48 IST" duration-ms="9466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T12:59:48 IST" name="amConfig" finished-at="2024-03-19T12:59:49 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T13:01:21 IST" name="acConfig" finished-at="2024-03-19T13:01:24 IST" duration-ms="2605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@1b7cc17c]" started-at="2024-03-19T13:01:24 IST" name="asConfig" finished-at="2024-03-19T13:01:27 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- com.iCustomer.CreateNewOrganizationTest -->
+      <class name="com.MyWork.TaskTest">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.MyWork.TaskTest@55183b20]" started-at="2024-03-19T13:01:02 IST" name="bmConfig" finished-at="2024-03-19T13:01:03 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.MyWork.TaskTest@55183b20]" started-at="2024-03-19T13:01:03 IST" name="launchiCustomerProduct" finished-at="2024-03-19T13:01:08 IST" duration-ms="5012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchiCustomerProduct -->
+        <test-method signature="openTasksModule()[pri:2, instance:com.MyWork.TaskTest@55183b20]" started-at="2024-03-19T13:01:08 IST" name="openTasksModule" finished-at="2024-03-19T13:01:15 IST" duration-ms="6499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTasksModule -->
+        <test-method signature="fillCreateNewTask()[pri:3, instance:com.MyWork.TaskTest@55183b20]" started-at="2024-03-19T13:01:15 IST" name="fillCreateNewTask" finished-at="2024-03-19T13:01:21 IST" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillCreateNewTask -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.MyWork.TaskTest@55183b20]" started-at="2024-03-19T13:01:21 IST" name="amConfig" finished-at="2024-03-19T13:01:21 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+      </class> <!-- com.MyWork.TaskTest -->
+      <class name="com.saleshub.SalesHomeTest">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T12:59:49 IST" name="bmConfig" finished-at="2024-03-19T12:59:50 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T12:59:50 IST" name="launchiCustomerProduct" finished-at="2024-03-19T12:59:55 IST" duration-ms="4476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchiCustomerProduct -->
+        <test-method signature="openSalesHomeModule()[pri:2, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T12:59:55 IST" name="openSalesHomeModule" finished-at="2024-03-19T13:00:02 IST" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSalesHomeModule -->
+        <test-method signature="fillQualify()[pri:3, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T13:00:02 IST" name="fillQualify" finished-at="2024-03-19T13:00:28 IST" duration-ms="25738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillQualify -->
+        <test-method signature="fillDevelop()[pri:4, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T13:00:28 IST" name="fillDevelop" finished-at="2024-03-19T13:00:41 IST" duration-ms="12830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDevelop -->
+        <test-method signature="fillPropose()[pri:5, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T13:00:41 IST" name="fillPropose" finished-at="2024-03-19T13:00:47 IST" duration-ms="6396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPropose -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.saleshub.SalesHomeTest@35e2d654]" started-at="2024-03-19T13:00:47 IST" name="amConfig" finished-at="2024-03-19T13:00:47 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+      </class> <!-- com.saleshub.SalesHomeTest -->
+      <class name="com.MyWork.DashboardTest">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.MyWork.DashboardTest@1bd4fdd]" started-at="2024-03-19T13:00:47 IST" name="bmConfig" finished-at="2024-03-19T13:00:49 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.MyWork.DashboardTest@1bd4fdd]" started-at="2024-03-19T13:00:49 IST" name="launchiCustomerProduct" finished-at="2024-03-19T13:00:53 IST" duration-ms="4150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchiCustomerProduct -->
+        <test-method signature="CreateEvent()[pri:2, instance:com.MyWork.DashboardTest@1bd4fdd]" started-at="2024-03-19T13:00:53 IST" name="CreateEvent" finished-at="2024-03-19T13:01:02 IST" duration-ms="8968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.MyWork.DashboardTest@1bd4fdd]" started-at="2024-03-19T13:01:02 IST" name="amConfig" finished-at="2024-03-19T13:01:02 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+      </class> <!-- com.MyWork.DashboardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

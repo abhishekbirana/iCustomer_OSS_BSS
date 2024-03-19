@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.iCustomer.genericutilities.ListenersImplementationClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.MyWork.DashboardTest">
+        <methods>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="CreateEvent"/>
+          <include name="bsConfig"/>
+          <include name="launchiCustomerProduct"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- com.MyWork.DashboardTest -->
+      <class name="com.saleshub.SalesHomeTest">
+        <methods>
+          <include name="asConfig"/>
+          <include name="openSalesHomeModule"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="launchiCustomerProduct"/>
+          <include name="bsConfig"/>
+          <include name="fillPropose"/>
+          <include name="fillDevelop"/>
+          <include name="fillQualify"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- com.saleshub.SalesHomeTest -->
+      <class name="com.iCustomer.CreateNewOrganizationTest">
+        <methods>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="fillDetails"/>
+          <include name="launchiCustomerProduct"/>
+          <include name="bsConfig"/>
+          <include name="open360HomeModule"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- com.iCustomer.CreateNewOrganizationTest -->
+      <class name="com.MyWork.TaskTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="fillCreateNewTask"/>
+          <include name="acConfig"/>
+          <include name="openTasksModule"/>
+          <include name="launchiCustomerProduct"/>
+        </methods>
+      </class> <!-- com.MyWork.TaskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
