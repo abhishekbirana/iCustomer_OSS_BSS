@@ -109,8 +109,12 @@ public class CreateNewOrganizationTest extends BaseClass {
 		
 		String actualText = chp.getOrgMessage(driver);
 		String expectedText = "Organisation Successfully Created";
-		System.out.println(actualText);
 		
+		System.out.println(actualText);
+		if (actualText.contains("already exists")) {
+			chp.clickOnOkBtn2(driver);
+			open360HomeModule();
+		}
 		
 		Assert.assertEquals(actualText, expectedText, "Organization Not Created");
 		chp.clickOnOkBtn2(driver);

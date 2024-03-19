@@ -8,15 +8,43 @@
     <classes>
       <class name="com.MyWork.DashboardTest">
         <methods>
-          <include name="amConfig"/>
-          <include name="asConfig"/>
-          <include name="bcConfig"/>
           <include name="bmConfig"/>
+          <include name="bcConfig"/>
           <include name="CreateEvent"/>
           <include name="bsConfig"/>
-          <include name="acConfig"/>
+          <include name="launchiCustomerProduct"/>
         </methods>
       </class> <!-- com.MyWork.DashboardTest -->
+      <class name="com.MyWork.TaskTest">
+        <methods>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="fillCreateNewTask"/>
+          <include name="openTasksModule"/>
+          <include name="launchiCustomerProduct"/>
+        </methods>
+      </class> <!-- com.MyWork.TaskTest -->
+      <class name="com.iCustomer.CreateNewOrganizationTest">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="fillDetails"/>
+          <include name="bsConfig"/>
+        </methods>
+      </class> <!-- com.iCustomer.CreateNewOrganizationTest -->
+      <class name="com.saleshub.SalesHomeTest">
+        <methods>
+          <include name="openSalesHomeModule"/>
+          <include name="bcConfig"/>
+          <include name="launchiCustomerProduct"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="fillPropose"/>
+          <include name="fillDevelop"/>
+          <include name="fillQualify"/>
+        </methods>
+      </class> <!-- com.saleshub.SalesHomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

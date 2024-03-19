@@ -366,7 +366,6 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			saveBtn.click();
-			System.out.println("1");
 		}
 		
 		handleDropdown(topologyDD, topology);
