@@ -12,7 +12,6 @@
           <include name="bsConfig"/>
           <include name="fillPropose"/>
           <include name="fillDevelop"/>
-          <include name="fillQualify"/>
           <include name="acConfig"/>
         </methods>
       </class> <!-- com.saleshub.SalesHomeTest -->

@@ -85,6 +85,7 @@ public class SalesHomeTest extends BaseClass
 		
 		
 		shp.clickOnTechnicalRequirementText(driver);
+		Thread.sleep(2000);
 		wUtil.scrollActionToBottom(driver);
 		shp.enterTechnicalRequirementDetails(driver, existingRoutingProtocol, securityRequirements, publicCloudAccessToggleBtn, publicCloudAccess, cpeRequirement, oemModel1, oemModel2, cpeModel1, cpeModel2, noOfDevices1, noOfDevices2, topology, internetRequired);
 		
