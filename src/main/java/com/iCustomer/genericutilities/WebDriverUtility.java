@@ -416,6 +416,21 @@ public class WebDriverUtility {
 		js.executeScript("window.scrollTo(0,0);");
 	}
 	
+	
+	/**
+	 * This method will perform top scroll action upto perticular element
+	 * @author abhishek.birana
+	 * @param driver
+	 */
+	public void scrollActionToElement(WebDriver driver, WebElement element)
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", element);
+	}
+	
+	
+	
+	
 	/**
 	 * This method will click by using Javascript Executor
 	 * @author abhishek.birana

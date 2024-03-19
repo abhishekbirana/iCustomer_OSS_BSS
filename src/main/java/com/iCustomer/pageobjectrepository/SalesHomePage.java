@@ -362,6 +362,8 @@ public class SalesHomePage extends WebDriverUtility
 			handleDropdown(cpeModelDropdown1, cpeModel1);
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
 			addAnotherTxt.click();
+			scrollActionToElement(driver, oemModelDropdown2);
+			
 			handleDropdown(oemModelDropdown2, oemModel2);
 			handleDropdown(cpeModelDropdown2, cpeModel2);
 			noOfDevicesTxtField2.sendKeys(noOfDevices2);

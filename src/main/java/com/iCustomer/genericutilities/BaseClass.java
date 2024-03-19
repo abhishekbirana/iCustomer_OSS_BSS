@@ -139,6 +139,7 @@ public class BaseClass {
 		SendEmail smwa = new SendEmail();
 		smwa.sendingEmail("abhishek.birana@in2ittech.com","abhishek.birana@in2ittech.com","This email sent using JavaMailer API from Automation Testing. This mail contains emailable-report.html file.","Testing Report by Abhishek Birana");
 		
+		
 //		System.out.println(" =====> Database Closed Successfully <===== ");
 
 	}
