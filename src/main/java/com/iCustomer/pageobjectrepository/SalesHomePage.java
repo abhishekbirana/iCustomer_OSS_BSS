@@ -364,7 +364,10 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(oemModelDropdown2, oemModel2);
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
-			saveBtn.click();
+			if (saveBtn.isEnabled()) {
+				saveBtn.click();
+			}
+			
 		}
 		handleDropdown(topologyDD, topology);
 		handleDropdown(internetRequiredDD, internetRequired);
