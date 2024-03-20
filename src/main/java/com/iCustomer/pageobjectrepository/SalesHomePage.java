@@ -109,8 +109,8 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//select[@formcontrolname='public_cloud_access_dropdown']")
 	private WebElement publicCloudAccessDropdown;
 	
-	@FindBy(xpath = "//span[text()='Enter CPE Details']")
-	private WebElement enterCPEDetailsTxtBtn;
+	@FindBy(xpath = "//span[text()='View/Edit']")
+	private WebElement viewEditTxtBtn;
 	
 	@FindBy(xpath = "//select[@formcontrolname='oem_model_id']")
 	private WebElement oemModelDropdown1;
@@ -360,27 +360,23 @@ public class SalesHomePage extends WebDriverUtility
 		
 		if (cpeRequirement.contains("Yes"))
 		{
-			System.out.println("1");
 			Thread.sleep(2000);
-			System.out.println("2");
 			if (cpeRequirementTglBtn.isDisplayed()) {
-				System.out.println("3");
 				cpeRequirementTglBtn.click();
-				System.out.println("4");
 			}
 			else {
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
 			}
 			
-			enterCPEDetailsTxtBtn.click();
+			viewEditTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
 			handleDropdown(cpeModelDropdown1, cpeModel1);
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
-//			addAnotherTxt.click();
-//			Thread.sleep(2000);
-//			handleDropdown(oemModelDropdown2, oemModel2);
-//			handleDropdown(cpeModelDropdown2, cpeModel2);
-//			noOfDevicesTxtField2.sendKeys(noOfDevices2);
+			addAnotherTxt.click();
+			Thread.sleep(2000);
+			handleDropdown(oemModelDropdown2, oemModel2);
+			handleDropdown(cpeModelDropdown2, cpeModel2);
+			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			saveBtn.click();
 			handleDropdown(topologyDD, topology);
 			handleDropdown(internetRequiredDD, internetRequired);
