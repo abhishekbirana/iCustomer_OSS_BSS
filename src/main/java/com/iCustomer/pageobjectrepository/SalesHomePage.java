@@ -390,6 +390,7 @@ public class SalesHomePage extends WebDriverUtility
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
 			System.out.println("7");
 			addAnotherTxt.click();
+			scrollActionToElement(driver, oemModelDropdown2);
 			Thread.sleep(2000);
 			handleDropdown(oemModelDropdown2, oemModel2);
 			handleDropdown(cpeModelDropdown2, cpeModel2);
@@ -402,7 +403,8 @@ public class SalesHomePage extends WebDriverUtility
 			System.out.println("9");
 			handleDropdown(internetRequiredDD, internetRequired);
 			System.out.println("10");
-			Thread.sleep(4000);
+			scrollActionToElement(driver, saveInfoBtn2);
+			Thread.sleep(2000);
 			saveInfoBtn2.click();
 		}
 		
