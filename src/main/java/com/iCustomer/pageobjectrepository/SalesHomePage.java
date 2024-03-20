@@ -389,11 +389,11 @@ public class SalesHomePage extends WebDriverUtility
 			System.out.println("6");
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
 			System.out.println("7");
-//			addAnotherTxt.click();
-//			Thread.sleep(2000);
-//			handleDropdown(oemModelDropdown2, oemModel2);
-//			handleDropdown(cpeModelDropdown2, cpeModel2);
-//			noOfDevicesTxtField2.sendKeys(noOfDevices2);
+			addAnotherTxt.click();
+			Thread.sleep(2000);
+			handleDropdown(oemModelDropdown2, oemModel2);
+			handleDropdown(cpeModelDropdown2, cpeModel2);
+			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			scrollActionToElement(driver, saveBtn);
 			Thread.sleep(2000);
 			saveBtn.click();
@@ -402,7 +402,7 @@ public class SalesHomePage extends WebDriverUtility
 			System.out.println("9");
 			handleDropdown(internetRequiredDD, internetRequired);
 			System.out.println("10");
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			saveInfoBtn2.click();
 		}
 		
