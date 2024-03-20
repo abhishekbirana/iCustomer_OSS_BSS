@@ -376,21 +376,26 @@ public class SalesHomePage extends WebDriverUtility
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
 				System.out.println("3");
 				enterCPEDetailsTxtBtn.click();
+				System.out.println("Clicked on Enter CPE Details");
 			}
 			else
 			{
 				System.out.println("'View/Edit' OR 'Enter CPE Details' Text is not displayed");
 			}
-			
+			System.out.println("4");
 			handleDropdown(oemModelDropdown1, oemModel1);
+			System.out.println("5");
 			handleDropdown(cpeModelDropdown1, cpeModel1);
+			System.out.println("6");
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
-			addAnotherTxt.click();
-			Thread.sleep(2000);
-			handleDropdown(oemModelDropdown2, oemModel2);
-			handleDropdown(cpeModelDropdown2, cpeModel2);
-			noOfDevicesTxtField2.sendKeys(noOfDevices2);
+			System.out.println("7");
+//			addAnotherTxt.click();
+//			Thread.sleep(2000);
+//			handleDropdown(oemModelDropdown2, oemModel2);
+//			handleDropdown(cpeModelDropdown2, cpeModel2);
+//			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			saveBtn.click();
+			System.out.println("8");
 			handleDropdown(topologyDD, topology);
 			handleDropdown(internetRequiredDD, internetRequired);
 			saveInfoBtn2.click();
