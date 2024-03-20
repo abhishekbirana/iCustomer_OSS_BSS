@@ -57,15 +57,15 @@ public class SalesHomeTest extends BaseClass
 		String billingCycle = eUtil.readDataFromExcel("Sales Home", 1, 7);
 		String purchaseProduct = eUtil.readDataFromExcel("Sales Home", 1, 8);
 		String certainity = eUtil.readDataFromExcel("Sales Home", 1, 10);
-		
+		System.out.println("1");
 		shp.enterDetails(driver, account, contact, product, contactDuration, estimatedBudgetCurrency, estimatedBudget, billingCycle, purchaseProduct, certainity);
-		
+		System.out.println("2");
 		shp.clickOnSaveInfoBtn();
-		
+		System.out.println("3");
 		System.out.println(shp.getSuccessMessage());
-		
+		System.out.println("4");
 		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
-		
+		System.out.println("5");
 		shp.clickOkBtn();
 		
 		String existingRoutingProtocol = eUtil.readDataFromExcel("Technical Requirement", 1, 0);
@@ -85,8 +85,8 @@ public class SalesHomeTest extends BaseClass
 		
 		
 		shp.clickOnTechnicalRequirementText(driver);
-		Thread.sleep(2000);
-		wUtil.scrollActionToBottom(driver);
+//		Thread.sleep(2000);
+//		wUtil.scrollActionToBottom(driver);
 //		shp.enterTechnicalRequirementDetails(driver, existingRoutingProtocol, securityRequirements, publicCloudAccessToggleBtn, publicCloudAccess, cpeRequirement, oemModel1, oemModel2, cpeModel1, cpeModel2, noOfDevices1, noOfDevices2, topology, internetRequired);
 //		
 //		System.out.println(shp.getTechReqMessage());
