@@ -394,19 +394,15 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(oemModelDropdown2, oemModel2);
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
-			scrollActionToElement(driver, saveBtn);
-			Thread.sleep(2000);
-			saveBtn.click();
+			jsclick(driver, saveBtn);
 			System.out.println("8");
 			handleDropdown(topologyDD, topology);
 			System.out.println("9");
 			handleDropdown(internetRequiredDD, internetRequired);
 			System.out.println("10");
-			scrollActionToElement(driver, saveInfoBtn2);
-			Thread.sleep(2000);
 			
 			if (saveInfoBtn2.isDisplayed()) {
-				saveInfoBtn2.click();
+				jsclick(driver, saveInfoBtn2);
 			}
 			else {
 				System.out.println("Save Info Btn is disabled");
