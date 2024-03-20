@@ -15,7 +15,7 @@ public class TaskTest extends BaseClass
 {
 	TaskPage tp = null;
 	
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	public void launchiCustomerProduct() throws InterruptedException
 	{
 		ProductPage pp = new ProductPage(driver);
@@ -31,7 +31,7 @@ public class TaskTest extends BaseClass
 		wUtil.switchToWindow(driver, "iCustomer");
 	}
 	
-//	@Test(priority = 2)
+	@Test(priority = 2)
 	public void openTasksModule() throws Exception
 	{
 		HomePage hp = new HomePage(driver);
@@ -44,7 +44,7 @@ public class TaskTest extends BaseClass
 		
 	}
 	
-//	@Test(priority = 3)
+	@Test(priority = 3)
 	public void fillCreateNewTask() throws Exception
 	{
 		String taskSummary = eUtil.readDataFromExcel("Create New Task", 1, 0);

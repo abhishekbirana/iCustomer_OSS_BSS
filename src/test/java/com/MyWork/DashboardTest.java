@@ -14,7 +14,7 @@ public class DashboardTest extends BaseClass
 {
 	DashboardPage shp = null;
 	
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	public void launchiCustomerProduct() throws InterruptedException
 	{
 		ProductPage pp = new ProductPage(driver);
@@ -30,7 +30,7 @@ public class DashboardTest extends BaseClass
 		wUtil.switchToWindow(driver, "iCustomer");
 	}
 	
-//	@Test(priority = 2)
+	@Test(priority = 2)
 	public void CreateEvent() throws Exception
 	{
 		HomePage hp = new HomePage(driver);
@@ -40,7 +40,7 @@ public class DashboardTest extends BaseClass
 		wUtil.waitForPageLoad(driver);
 		String EventName=eUtil.readDataFromExcel("Create Event form", 1, 0);
 		String Description=eUtil.readDataFromExcel("Create Event form", 1, 1);
-		String ShareWith=eUtil.readDataFromExcel("Create Event form", 1, 2);
+		String ShareWith=eUtil.readDataFromExcel("Create Event form", 1, 6);
 		dp.filleventform(driver, EventName, Description, ShareWith);
 		
 		String actualMessage = dp.getSuccessMessage();

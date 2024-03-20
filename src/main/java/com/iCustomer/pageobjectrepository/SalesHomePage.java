@@ -497,31 +497,23 @@ public class SalesHomePage extends WebDriverUtility
 	
 	public void enterProposeDetails(WebDriver driver, String kamName, String date) throws Exception
 	{
-		System.out.println("1");
 		jsclick(driver, kamNameDD);
-		System.out.println("2");
 		Thread.sleep(2000);
 		handleDropdownList(driver, kamNameList, kamName);
-		System.out.println("3");
 		Thread.sleep(2000);
 		
 		if (calendarIcon.isDisplayed()) {
-			System.out.println("3.1");
 			calendarIcon.click();
-			System.out.println("3.2");
 		}
 		else {
 			System.out.println("Calendar Icon is not presents");
 		}
 		
-		System.out.println("4");
 		Select sy = new Select(yearElement);
 		sy.selectByVisibleText("2025");
-		System.out.println("5");
 		
 		Select sm = new Select(monthElement);
 		sm.selectByVisibleText("Dec");
-		System.out.println("6");
 		commonDateClick(driver, date);
 		
 	}
