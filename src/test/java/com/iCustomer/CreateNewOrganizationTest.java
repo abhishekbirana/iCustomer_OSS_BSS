@@ -3,7 +3,6 @@ package com.iCustomer;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import com.iCustomer.genericutilities.BaseClass;
 import com.iCustomer.pageobjectrepository.Customer360HomePage;
