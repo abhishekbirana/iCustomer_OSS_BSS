@@ -357,13 +357,16 @@ public class SalesHomePage extends WebDriverUtility
 			handleDropdown(publicCloudAccessDropdown, publicCloudAccess);
 			
 		}		
-		System.out.println("1");
+		
 		if (cpeRequirement.contains("Yes"))
 		{
-			System.out.println("2");
+			System.out.println("1");
 			Thread.sleep(2000);
+			System.out.println("2");
 			if (cpeRequirementTglBtn.isDisplayed()) {
+				System.out.println("3");
 				cpeRequirementTglBtn.click();
+				System.out.println("4");
 			}
 			else {
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
