@@ -304,7 +304,12 @@ public class SalesHomePage extends WebDriverUtility
 	
 	public void clickOnSaveInfoBtn()
 	{
-		saveInfoBtn.click();
+		if (saveInfoBtn.isEnabled()) {
+			saveInfoBtn.click();
+		}
+		else {
+			System.out.println("Save Btn is disabled");
+		}
 	}
 	
 	public String getSuccessMessage()

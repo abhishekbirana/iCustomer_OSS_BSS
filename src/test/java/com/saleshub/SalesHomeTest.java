@@ -60,8 +60,8 @@ public class SalesHomeTest extends BaseClass
 		System.out.println("1");
 		shp.enterDetails(driver, account, contact, product, contactDuration, estimatedBudgetCurrency, estimatedBudget, billingCycle, purchaseProduct, certainity);
 		System.out.println("2");
-//		shp.clickOnSaveInfoBtn();
-//		System.out.println("3");
+		shp.clickOnSaveInfoBtn();
+		System.out.println("3");
 //		System.out.println(shp.getSuccessMessage());
 //		System.out.println("4");
 //		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
