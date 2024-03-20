@@ -502,7 +502,7 @@ public class SalesHomePage extends WebDriverUtility
 		Thread.sleep(2000);
 		handleDropdownList(driver, kamNameList, kamName);
 		
-		calendarIcon.click();
+		jsclick(driver, calendarIcon);
 		Select sy = new Select(yearElement);
 		sy.selectByVisibleText("2025");
 		
