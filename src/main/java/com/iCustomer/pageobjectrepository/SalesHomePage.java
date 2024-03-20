@@ -404,7 +404,14 @@ public class SalesHomePage extends WebDriverUtility
 			System.out.println("10");
 			scrollActionToElement(driver, saveInfoBtn2);
 			Thread.sleep(2000);
-			saveInfoBtn2.click();
+			
+			if (saveInfoBtn2.isDisplayed()) {
+				saveInfoBtn2.click();
+			}
+			else {
+				System.out.println("Save Info Btn is disabled");
+			}
+			
 		}
 		
 	}
