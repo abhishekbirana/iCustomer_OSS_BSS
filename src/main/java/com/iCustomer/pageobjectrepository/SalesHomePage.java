@@ -504,7 +504,16 @@ public class SalesHomePage extends WebDriverUtility
 		handleDropdownList(driver, kamNameList, kamName);
 		System.out.println("3");
 		Thread.sleep(2000);
-		jsclick(driver, calendarIcon);
+		
+		if (calendarIcon.isDisplayed()) {
+			System.out.println("3.1");
+			calendarIcon.click();
+			System.out.println("3.2");
+		}
+		else {
+			System.out.println("Calendar Icon is not presents");
+		}
+		
 		System.out.println("4");
 		Select sy = new Select(yearElement);
 		sy.selectByVisibleText("2025");
