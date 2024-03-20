@@ -399,7 +399,10 @@ public class SalesHomePage extends WebDriverUtility
 			saveBtn.click();
 			System.out.println("8");
 			handleDropdown(topologyDD, topology);
+			System.out.println("9");
 			handleDropdown(internetRequiredDD, internetRequired);
+			System.out.println("10");
+			Thread.sleep(2000);
 			saveInfoBtn2.click();
 		}
 		
