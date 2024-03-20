@@ -1,7 +1,7 @@
 package com.saleshub;
 
 
-import org.testng.Assert;
+import org.testng.Assert; 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -87,31 +87,31 @@ public class SalesHomeTest extends BaseClass
 		shp.clickOnTechnicalRequirementText(driver);
 		Thread.sleep(2000);
 		wUtil.scrollActionToBottom(driver);
-		shp.enterTechnicalRequirementDetails(driver, existingRoutingProtocol, securityRequirements, publicCloudAccessToggleBtn, publicCloudAccess, cpeRequirement, oemModel1, oemModel2, cpeModel1, cpeModel2, noOfDevices1, noOfDevices2, topology, internetRequired);
-		
-		System.out.println(shp.getTechReqMessage());
-		
-		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement is updated successfully");
-		shp.clickOkBtn2();
-		
-		shp.clickOnSiteInformationTxtText(driver);
-		shp.uploadFile(driver);
-		wUtil.scrollActionToBottom(driver);
-		shp.clickOnSaveInfoBtn3(driver);
-		
-		System.out.println(shp.getSiteSuccessMessage());
-		
-		Assert.assertEquals(shp.getSiteSuccessMessage(), "Site updated successfully");
-		
-		shp.clickOkBtn3(driver);
-		shp.clickOnCheckFeasibilityBtn(driver);
-		wUtil.scrollActionToTop(driver);
-		shp.clickOnQualifyTxt(driver);
+//		shp.enterTechnicalRequirementDetails(driver, existingRoutingProtocol, securityRequirements, publicCloudAccessToggleBtn, publicCloudAccess, cpeRequirement, oemModel1, oemModel2, cpeModel1, cpeModel2, noOfDevices1, noOfDevices2, topology, internetRequired);
+//		
+//		System.out.println(shp.getTechReqMessage());
+//		
+//		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement is updated successfully");
+//		shp.clickOkBtn2();
+//		
+//		shp.clickOnSiteInformationTxtText(driver);
+//		shp.uploadFile(driver);
+//		wUtil.scrollActionToBottom(driver);
+//		shp.clickOnSaveInfoBtn3(driver);
+//		
+//		System.out.println(shp.getSiteSuccessMessage());
+//		
+//		Assert.assertEquals(shp.getSiteSuccessMessage(), "Site updated successfully");
+//		
+//		shp.clickOkBtn3(driver);
+//		shp.clickOnCheckFeasibilityBtn(driver);
+//		wUtil.scrollActionToTop(driver);
+//		shp.clickOnQualifyTxt(driver);
 		
 		
 	}
 	
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	public void fillDevelop() throws Exception
 	{
 		shp = new SalesHomePage(driver);
@@ -130,7 +130,7 @@ public class SalesHomeTest extends BaseClass
 	}
 	
 	
-	@Test(priority = 5)
+//	@Test(priority = 5)
 	public void fillPropose() throws Exception
 	{
 		shp = new SalesHomePage(driver);

@@ -70,8 +70,8 @@ public class DashboardPage extends WebDriverUtility
 		evtname.sendKeys(EventName);
 		descrpyn.sendKeys(Description);
 		
-		startdate.sendKeys("19032024");
-		enddate.sendKeys("20032024");
+		startdate.sendKeys("29032024");
+		enddate.sendKeys("30032024");
 		
 		startime.sendKeys("1400");
 		endtime.sendKeys("1600");

@@ -366,23 +366,11 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(oemModelDropdown2, oemModel2);
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
-			if (saveBtn.isEnabled()) {
-				saveBtn.click();
-				System.out.println("Clicked Save Btn");
-			}
-			
-		}
-		if (topologyDD.isDisplayed()) {
+			saveBtn.click();
 			handleDropdown(topologyDD, topology);
-			System.out.println("1");
-		}
-		
-		handleDropdown(internetRequiredDD, internetRequired);
-		if (saveInfoBtn2.isDisplayed()) {
+			handleDropdown(internetRequiredDD, internetRequired);
 			saveInfoBtn2.click();
-			System.out.println("saveInfoBtn2 clicked");
 		}
-		
 		
 	}
 	
