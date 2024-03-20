@@ -20,7 +20,7 @@ public class JavaUtility {
 	public int getRandomNumber()
 	{
 		Random r = new Random();
-		return r.nextInt(100000);
+		return r.nextInt(1000000);
 	}
 
 	/**
