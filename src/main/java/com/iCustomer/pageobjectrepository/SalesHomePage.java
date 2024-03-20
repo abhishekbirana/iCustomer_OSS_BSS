@@ -356,7 +356,6 @@ public class SalesHomePage extends WebDriverUtility
 		{
 			
 			Thread.sleep(2000);
-			System.out.println(cpeRequirement);
 			cpeRequirementTglBtn.click();
 			enterCPEDetailsTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
@@ -368,12 +367,16 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			if (saveBtn.isEnabled()) {
-				System.out.println("Save Btn is enabled");
 				saveBtn.click();
+				System.out.println("Clicked Save Btn");
 			}
 			
 		}
-		handleDropdown(topologyDD, topology);
+		if (topologyDD.isDisplayed()) {
+			handleDropdown(topologyDD, topology);
+			System.out.println("1");
+		}
+		
 		handleDropdown(internetRequiredDD, internetRequired);
 		saveInfoBtn2.click();
 		
