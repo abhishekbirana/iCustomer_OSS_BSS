@@ -62,8 +62,8 @@ public class SalesHomeTest extends BaseClass
 		System.out.println("2");
 		shp.clickOnSaveInfoBtn();
 		System.out.println("3");
-//		System.out.println(shp.getSuccessMessage());
-//		System.out.println("4");
+		System.out.println(shp.getSuccessMessage());
+		System.out.println("4");
 //		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
 //		System.out.println("5");
 //		shp.clickOkBtn();
