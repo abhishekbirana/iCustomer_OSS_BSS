@@ -503,7 +503,7 @@ public class SalesHomePage extends WebDriverUtility
 		Thread.sleep(2000);
 		handleDropdownList(driver, kamNameList, kamName);
 		System.out.println("3");
-		
+		Thread.sleep(2000);
 		jsclick(driver, calendarIcon);
 		System.out.println("4");
 		Select sy = new Select(yearElement);
