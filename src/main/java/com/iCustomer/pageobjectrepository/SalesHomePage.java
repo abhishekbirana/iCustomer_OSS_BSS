@@ -378,7 +378,11 @@ public class SalesHomePage extends WebDriverUtility
 		}
 		
 		handleDropdown(internetRequiredDD, internetRequired);
-		saveInfoBtn2.click();
+		if (saveInfoBtn2.isDisplayed()) {
+			saveInfoBtn2.click();
+			System.out.println("saveInfoBtn2 clicked");
+		}
+		
 		
 	}
 	
