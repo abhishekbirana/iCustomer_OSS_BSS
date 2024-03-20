@@ -108,7 +108,7 @@ public class BaseClass {
 		eUtil.writeParentIdIntoExistingExcelSheet("WindowsData", 1, 0, parentId);
 	}
 
-	
+	/*
 
 	@AfterClass
 	public void amConfig() throws Exception
@@ -144,5 +144,5 @@ public class BaseClass {
 
 	}
 	
-	
+	*/
 }

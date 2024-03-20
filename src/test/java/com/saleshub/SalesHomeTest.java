@@ -87,13 +87,14 @@ public class SalesHomeTest extends BaseClass
 		shp.clickOnTechnicalRequirementText(driver);
 		Thread.sleep(2000);
 		wUtil.scrollActionToBottom(driver);
+		System.out.println("1");
 		shp.enterTechnicalRequirementDetails(driver, existingRoutingProtocol, securityRequirements, publicCloudAccessToggleBtn, publicCloudAccess, cpeRequirement, oemModel1, oemModel2, cpeModel1, cpeModel2, noOfDevices1, noOfDevices2, topology, internetRequired);
 		
 		System.out.println(shp.getTechReqMessage());
 		
-//		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement is updated successfully");
-//		shp.clickOkBtn2();
-//		
+		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement is updated successfully");
+		shp.clickOkBtn2();
+		
 //		shp.clickOnSiteInformationTxtText(driver);
 //		shp.uploadFile(driver);
 //		wUtil.scrollActionToBottom(driver);

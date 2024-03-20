@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.asserts.SoftAssert;
 
 import com.iCustomer.genericutilities.WebDriverUtility;
 
@@ -103,7 +104,7 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//label[contains(text(), 'Public Cloud Access')]/following-sibling::div//span[@class='labels']")
 	private WebElement publicCloudAccessTglBtn;
 	
-	@FindBy(xpath = "//label[contains(text(), 'CPE Requirement')]/following-sibling::div//span[@class='labels']")
+	@FindBy(xpath = "//label[text()='CPE Requirement*:']/following-sibling::div//span[@class='labels']")
 	private WebElement cpeRequirementTglBtn;
 	
 	@FindBy(xpath = "//select[@formcontrolname='public_cloud_access_dropdown']")
@@ -111,6 +112,9 @@ public class SalesHomePage extends WebDriverUtility
 	
 	@FindBy(xpath = "//span[text()='View/Edit']")
 	private WebElement viewEditTxtBtn;
+	
+	@FindBy(xpath = "//span[text()='Enter CPE Details']")
+	private WebElement enterCPEDetailsTxtBtn;
 	
 	@FindBy(xpath = "//select[@formcontrolname='oem_model_id']")
 	private WebElement oemModelDropdown1;
@@ -363,12 +367,21 @@ public class SalesHomePage extends WebDriverUtility
 			Thread.sleep(2000);
 			if (cpeRequirementTglBtn.isDisplayed()) {
 				cpeRequirementTglBtn.click();
+				System.out.println("Clicked on CPE Requirement Toggle Btn");
 			}
 			else {
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
 			}
+			System.out.println("2");
+			if (enterCPEDetailsTxtBtn.isDisplayed()) {
+				System.out.println("3");
+				enterCPEDetailsTxtBtn.click();
+			}
+			else
+			{
+				System.out.println("'View/Edit' OR 'Enter CPE Details' Text is not displayed");
+			}
 			
-			viewEditTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
 			handleDropdown(cpeModelDropdown1, cpeModel1);
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
