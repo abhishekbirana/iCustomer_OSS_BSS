@@ -389,6 +389,8 @@ public class SalesHomePage extends WebDriverUtility
 			System.out.println("6");
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
 			System.out.println("7");
+			scrollActionToElement(driver, addAnotherTxt);
+			Thread.sleep(2000);
 			addAnotherTxt.click();
 			scrollActionToElement(driver, oemModelDropdown2);
 			Thread.sleep(2000);
