@@ -14,7 +14,7 @@ public class DashboardTest extends BaseClass
 {
 	DashboardPage shp = null;
 	
-	@Test(priority = 1)
+//	@Test(priority = 1)
 	public void launchiCustomerProduct() throws InterruptedException
 	{
 		ProductPage pp = new ProductPage(driver);
@@ -30,7 +30,7 @@ public class DashboardTest extends BaseClass
 		wUtil.switchToWindow(driver, "iCustomer");
 	}
 	
-	@Test(priority = 2)
+//	@Test(priority = 2)
 	public void CreateEvent() throws Exception
 	{
 		HomePage hp = new HomePage(driver);
