@@ -372,7 +372,6 @@ public class SalesHomePage extends WebDriverUtility
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
 			}
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
-				System.out.println("3");
 				enterCPEDetailsTxtBtn.click();
 			}
 			else
@@ -498,16 +497,22 @@ public class SalesHomePage extends WebDriverUtility
 	
 	public void enterProposeDetails(WebDriver driver, String kamName, String date) throws Exception
 	{
+		System.out.println("1");
 		jsclick(driver, kamNameDD);
+		System.out.println("2");
 		Thread.sleep(2000);
 		handleDropdownList(driver, kamNameList, kamName);
+		System.out.println("3");
 		
 		jsclick(driver, calendarIcon);
+		System.out.println("4");
 		Select sy = new Select(yearElement);
 		sy.selectByVisibleText("2025");
+		System.out.println("5");
 		
 		Select sm = new Select(monthElement);
 		sm.selectByVisibleText("Dec");
+		System.out.println("6");
 		commonDateClick(driver, date);
 		
 	}
