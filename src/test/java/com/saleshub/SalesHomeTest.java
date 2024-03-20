@@ -64,9 +64,10 @@ public class SalesHomeTest extends BaseClass
 		System.out.println("3");
 		System.out.println(shp.getSuccessMessage());
 		System.out.println("4");
-//		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
-//		System.out.println("5");
-//		shp.clickOkBtn();
+		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
+		System.out.println("5");
+		shp.clickOkBtn();
+		System.out.println("6");
 		
 		String existingRoutingProtocol = eUtil.readDataFromExcel("Technical Requirement", 1, 0);
 		String securityRequirements = eUtil.readDataFromExcel("Technical Requirement", 1, 1);
