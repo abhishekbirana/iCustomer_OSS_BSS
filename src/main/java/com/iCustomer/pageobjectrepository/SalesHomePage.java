@@ -354,6 +354,9 @@ public class SalesHomePage extends WebDriverUtility
 		}		
 		if (cpeRequirement.contains("Yes"))
 		{
+			
+			Thread.sleep(2000);
+			System.out.println(cpeRequirement);
 			cpeRequirementTglBtn.click();
 			enterCPEDetailsTxtBtn.click();
 			handleDropdown(oemModelDropdown1, oemModel1);
@@ -365,6 +368,7 @@ public class SalesHomePage extends WebDriverUtility
 //			handleDropdown(cpeModelDropdown2, cpeModel2);
 //			noOfDevicesTxtField2.sendKeys(noOfDevices2);
 			if (saveBtn.isEnabled()) {
+				System.out.println("Save Btn is enabled");
 				saveBtn.click();
 			}
 			

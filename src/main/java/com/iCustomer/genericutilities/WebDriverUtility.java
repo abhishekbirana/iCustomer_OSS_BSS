@@ -464,6 +464,18 @@ public class WebDriverUtility {
 	}
 	
 	
+	/**
+	 * This method will perform zoom action
+	 * @author abhishek.birana
+	 * @param driver
+	 */
+	public void zoomBrowser(WebDriver driver, double zoomLevel) {
+        // Cast WebDriver to JavascriptExecutor
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        
+        // Execute JavaScript to set zoom level
+        js.executeScript("document.body.style.zoom = '" + zoomLevel + "'");
+    }
 	
 	/**
 	 * This method will switch the control to immediate parent frame
