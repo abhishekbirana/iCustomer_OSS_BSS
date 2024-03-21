@@ -80,13 +80,15 @@ public class CreateNewOrganizationTest extends BaseClass {
 		eUtil.writeDataIntoExistingExcelSheet("Sales Home", 1, 1, sPOCFirstName+" "+sPOCLastName);
 		
 		String sPOCEmail = eUtil.readDataFromExcel("Organization Details", 1, 15);
-		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 15, jUtil.getRandomMail(sPOCEmail, num));
+		String sPOCEmailNew = jUtil.getRandomMail(sPOCEmail, num);
+		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 15, sPOCEmailNew);
 		
 		
 		String sPOCPhoneCode = eUtil.readDataFromExcel("Organization Details", 1, 16);
 		
 		String mobileNumber = eUtil.readDataFromExcel("Organization Details", 1, 17);
-		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 17, jUtil.getRandomMobileNumber());
+		String mobileNumberNew = jUtil.getRandomMobileNumber();
+		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 17, mobileNumberNew);
 		
 		chp.enterAllRequiredDetails(driver, organizationNameNew, registrationNo, industry, description, parentOrganization, cluster, tier, organizationAddressLine1, organizationAddressLine2, pin, country, state, city, sPOCFirstName, sPOCLastName, sPOCEmail, sPOCPhoneCode, mobileNumber);
 		
