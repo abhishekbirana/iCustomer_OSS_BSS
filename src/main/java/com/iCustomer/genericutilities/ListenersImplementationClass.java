@@ -114,7 +114,11 @@ public class ListenersImplementationClass implements ITestListener
 		
 		/*Configure the extent reports here*/
 		                                                                          //Report-20 Aprl 2023 - 08-23-56.html
-		ExtentSparkReporter htmlReport = new ExtentSparkReporter(".\\ExtentReports\\Report-"+new JavaUtility().getSystemDateinFormat()+".html");
+		
+		String reportName = "Report-"+new JavaUtility().getSystemDateinFormat()+".html";
+		Container.webMap.put("REPORT_NAME", reportName);
+		
+		ExtentSparkReporter htmlReport = new ExtentSparkReporter(".\\ExtentReports\\"+reportName);
 		htmlReport.config().setDocumentTitle("iCustomer Execution Report");
 		htmlReport.config().setReportName("Automation Report by Abhishek Birana");
 		htmlReport.config().setTheme(Theme.DARK);

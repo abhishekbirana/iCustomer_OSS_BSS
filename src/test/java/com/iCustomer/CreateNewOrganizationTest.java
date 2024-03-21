@@ -30,7 +30,7 @@ public class CreateNewOrganizationTest extends BaseClass {
 		Assert.assertEquals(actualTitle, expectedTitle, "Title is not Matched");
 		Thread.sleep(2000);
 		wUtil.switchToWindow(driver, "iCustomer");
-		
+		wUtil.waitForPageLoad(driver);
 		
 	}
 	

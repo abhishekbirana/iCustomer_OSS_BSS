@@ -60,23 +60,14 @@ public class SendEmail {
 			MimeBodyPart attachmentBodyPart = new MimeBodyPart();
 			attachmentBodyPart.attachFile(new File(".\\test-output\\emailable-report.html"));
 			multipart.addBodyPart(attachmentBodyPart);
+			
+			MimeBodyPart attachmentBodyPart2 = new MimeBodyPart();
+			attachmentBodyPart2.attachFile(new File(".\\ExtentReports\\"+Container.webMap.get("REPORT_NAME")));
+			multipart.addBodyPart(attachmentBodyPart2);
+			
 			message.setContent(multipart);
 			
 			
-//			File directory = new File(".\\ScreenShots");
-//            File[] files = directory.listFiles();
-//            
-//            if (files != null && files.length > 0) {
-//                for (File file : files) {
-//                	mimeBodyPart = new MimeBodyPart();
-//                    DataSource source = new FileDataSource(file);
-//                    mimeBodyPart.setDataHandler(new DataHandler(source));
-//                    mimeBodyPart.setFileName(file.getName());
-//                    multipart.addBodyPart(mimeBodyPart);
-//                }
-//            }
-            
-
 			Transport.send(message);
 
 			System.out.println(" =====> Mail successfully sent.. <===== ");
