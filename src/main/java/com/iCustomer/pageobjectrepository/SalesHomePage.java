@@ -354,7 +354,6 @@ public class SalesHomePage extends WebDriverUtility
 	public void clickOnTechnicalRequirementText(WebDriver driver) throws Exception
 	{
 		TechnicalRequirementTxtBtn.click();
-		System.out.println("Clicked on Technical Requirement Text");
 		Thread.sleep(2000);
 	}
 	
@@ -397,6 +396,7 @@ public class SalesHomePage extends WebDriverUtility
 			else {
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
 			}
+			waitForElementToBeVisible(driver, enterCPEDetailsTxtBtn);
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
 				enterCPEDetailsTxtBtn.click();
 				waitForElementToBeVisible(driver, noOfDevicesTxtField1);
