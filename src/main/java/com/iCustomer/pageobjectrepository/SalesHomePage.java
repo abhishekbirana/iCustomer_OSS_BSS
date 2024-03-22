@@ -396,19 +396,25 @@ public class SalesHomePage extends WebDriverUtility
 			else {
 				System.out.println("CPE Requirement Toggle Btn is not displayed");
 			}
+			System.out.println("1");
 			waitForElementToBeVisible(driver, enterCPEDetailsTxtBtn);
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
 				enterCPEDetailsTxtBtn.click();
+				System.out.println("2");
 				waitForElementToBeVisible(driver, noOfDevicesTxtField1);
 			}
 			else
 			{
 				System.out.println("'View/Edit' OR 'Enter CPE Details' Text is not displayed");
 			}
+			System.out.println("3");
 			handleDropdown(oemModelDropdown1, oemModel1);
 			handleDropdown(cpeModelDropdown1, cpeModel1);
+			System.out.println("4");
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
+			System.out.println("5");
 			jsclick(driver, addAnotherTxt);
+			System.out.println("6");
 			waitForElementToBeVisible(driver, noOfDevicesTxtField2);
 			handleDropdown(oemModelDropdown2, oemModel2);
 			handleDropdown(cpeModelDropdown2, cpeModel2);
