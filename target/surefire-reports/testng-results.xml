@@ -1,351 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-22T12:00:44 IST" name="Suite" finished-at="2024-03-22T12:03:16 IST" duration-ms="152225">
+  <suite started-at="2024-03-22T12:31:56 IST" name="Suite" finished-at="2024-03-22T12:34:21 IST" duration-ms="145256">
     <groups>
     </groups>
-    <test started-at="2024-03-22T12:00:44 IST" name="Test" finished-at="2024-03-22T12:03:16 IST" duration-ms="152225">
+    <test started-at="2024-03-22T12:31:56 IST" name="Test" finished-at="2024-03-22T12:34:21 IST" duration-ms="145256">
       <class name="com.iCustomer.CreateNewOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:00:44 IST" name="bsConfig" finished-at="2024-03-22T12:00:44 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:31:56 IST" name="bsConfig" finished-at="2024-03-22T12:31:56 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:00:44 IST" name="bcConfig" finished-at="2024-03-22T12:01:00 IST" duration-ms="15497" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:31:56 IST" name="bcConfig" finished-at="2024-03-22T12:32:08 IST" duration-ms="12150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:01:00 IST" name="bmConfig" finished-at="2024-03-22T12:01:03 IST" duration-ms="2795" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:32:08 IST" name="bmConfig" finished-at="2024-03-22T12:32:11 IST" duration-ms="2864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:01:03 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:01:12 IST" duration-ms="9301" status="PASS">
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:32:11 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:32:39 IST" duration-ms="28240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchiCustomerProduct -->
-        <test-method signature="open360HomeModule()[pri:2, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:01:12 IST" name="open360HomeModule" finished-at="2024-03-22T12:01:19 IST" duration-ms="7295" status="PASS">
+        <test-method signature="open360HomeModule()[pri:2, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:32:39 IST" name="open360HomeModule" finished-at="2024-03-22T12:32:43 IST" duration-ms="4029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open360HomeModule -->
-        <test-method signature="fillDetails()[pri:3, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:01:19 IST" name="fillDetails" finished-at="2024-03-22T12:01:30 IST" duration-ms="10602" status="PASS">
+        <test-method signature="fillDetails()[pri:3, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:32:43 IST" name="fillDetails" finished-at="2024-03-22T12:32:54 IST" duration-ms="10738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillDetails -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:01:30 IST" name="amConfig" finished-at="2024-03-22T12:01:30 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:32:54 IST" name="amConfig" finished-at="2024-03-22T12:32:54 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:03:14 IST" name="acConfig" finished-at="2024-03-22T12:03:16 IST" duration-ms="2511" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:34:19 IST" name="acConfig" finished-at="2024-03-22T12:34:21 IST" duration-ms="2575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:03:17 IST" name="asConfig" finished-at="2024-03-22T12:03:20 IST" duration-ms="2844" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.iCustomer.CreateNewOrganizationTest@6069db50]" started-at="2024-03-22T12:34:21 IST" name="asConfig" finished-at="2024-03-22T12:34:25 IST" duration-ms="3400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
       </class> <!-- com.iCustomer.CreateNewOrganizationTest -->
       <class name="com.MyWork.TaskTest">
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:02:55 IST" name="bmConfig" finished-at="2024-03-22T12:02:57 IST" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:34:00 IST" name="bmConfig" finished-at="2024-03-22T12:34:02 IST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:02:57 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:03:01 IST" duration-ms="4550" status="PASS">
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:34:02 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:34:06 IST" duration-ms="4364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchiCustomerProduct -->
-        <test-method signature="openTasksModule()[pri:2, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:03:01 IST" name="openTasksModule" finished-at="2024-03-22T12:03:07 IST" duration-ms="6327" status="PASS">
+        <test-method signature="openTasksModule()[pri:2, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:34:06 IST" name="openTasksModule" finished-at="2024-03-22T12:34:12 IST" duration-ms="6413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openTasksModule -->
-        <test-method signature="fillCreateNewTask()[pri:3, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:03:07 IST" name="fillCreateNewTask" finished-at="2024-03-22T12:03:14 IST" duration-ms="6296" status="PASS">
+        <test-method signature="fillCreateNewTask()[pri:3, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:34:12 IST" name="fillCreateNewTask" finished-at="2024-03-22T12:34:18 IST" duration-ms="5961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCreateNewTask -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:03:14 IST" name="amConfig" finished-at="2024-03-22T12:03:14 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.MyWork.TaskTest@747ddf94]" started-at="2024-03-22T12:34:18 IST" name="amConfig" finished-at="2024-03-22T12:34:19 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
       </class> <!-- com.MyWork.TaskTest -->
       <class name="com.saleshub.SalesHomeTest">
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:01:30 IST" name="bmConfig" finished-at="2024-03-22T12:01:32 IST" duration-ms="1252" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:32:54 IST" name="bmConfig" finished-at="2024-03-22T12:32:56 IST" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:01:32 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:01:36 IST" duration-ms="4259" status="PASS">
+        <test-method signature="launchiCustomerProduct()[pri:1, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:32:56 IST" name="launchiCustomerProduct" finished-at="2024-03-22T12:33:00 IST" duration-ms="4047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchiCustomerProduct -->
-        <test-method signature="openSalesHomeModule()[pri:2, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:01:36 IST" name="openSalesHomeModule" finished-at="2024-03-22T12:01:43 IST" duration-ms="6719" status="PASS">
+        <test-method signature="openSalesHomeModule()[pri:2, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:33:00 IST" name="openSalesHomeModule" finished-at="2024-03-22T12:33:06 IST" duration-ms="6005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSalesHomeModule -->
-        <test-method signature="fillQualify()[pri:3, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:01:43 IST" name="fillQualify" finished-at="2024-03-22T12:02:14 IST" duration-ms="31897" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='ngb-nav-4']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//a[@id='ngb-nav-4'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='ngb-nav-4']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//a[@id='ngb-nav-4'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
-at com.iCustomer.pageobjectrepository.SalesHomePage.getDetailsQualify(SalesHomePage.java:341)
-at com.saleshub.SalesHomeTest.fillQualify(SalesHomeTest.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="fillQualify()[pri:3, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:33:06 IST" name="fillQualify" finished-at="2024-03-22T12:33:38 IST" duration-ms="32418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillQualify -->
-        <test-method signature="fillDevelop()[pri:4, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:02:15 IST" name="fillDevelop" finished-at="2024-03-22T12:02:35 IST" duration-ms="20154" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Delivery Timeframe* :']/../descendant::input[@class='form-control form-control-sm with_trash p-0 ng-untouched ng-pristine ng-valid']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//label[text()='Delivery Timeframe* :']/../descendant::input[@class='form-control form-control-sm with_trash p-0 ng-untouched ng-pristine ng-valid'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Delivery Timeframe* :']/../descendant::input[@class='form-control form-control-sm with_trash p-0 ng-untouched ng-pristine ng-valid']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//label[text()='Delivery Timeframe* :']/../descendant::input[@class='form-control form-control-sm with_trash p-0 ng-untouched ng-pristine ng-valid'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:462)
-at com.iCustomer.genericutilities.WebDriverUtility.jsclick(WebDriverUtility.java:442)
-at com.iCustomer.pageobjectrepository.SalesHomePage.enterDevelopDetails(SalesHomePage.java:474)
-at com.saleshub.SalesHomeTest.fillDevelop(SalesHomeTest.java:126)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="fillDevelop()[pri:4, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:33:38 IST" name="fillDevelop" finished-at="2024-03-22T12:33:52 IST" duration-ms="13489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillDevelop -->
-        <test-method signature="fillPropose()[pri:5, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:02:35 IST" name="fillPropose" finished-at="2024-03-22T12:02:55 IST" duration-ms="20135" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Select KAM Name']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//input[@placeholder='Select KAM Name'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Select KAM Name']"}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87b56d71af8a5b808ca6e9232baace6e, findElement {value=//input[@placeholder='Select KAM Name'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ABHISH~1.IN2\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64919/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87b56d71af8a5b808ca6e9232baace6e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:462)
-at com.iCustomer.genericutilities.WebDriverUtility.jsclick(WebDriverUtility.java:442)
-at com.iCustomer.pageobjectrepository.SalesHomePage.enterProposeDetails(SalesHomePage.java:520)
-at com.saleshub.SalesHomeTest.fillPropose(SalesHomeTest.java:142)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="fillPropose()[pri:5, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:33:52 IST" name="fillPropose" finished-at="2024-03-22T12:34:00 IST" duration-ms="8334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillPropose -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:02:55 IST" name="amConfig" finished-at="2024-03-22T12:02:55 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.saleshub.SalesHomeTest@2f9f7dcf]" started-at="2024-03-22T12:34:00 IST" name="amConfig" finished-at="2024-03-22T12:34:00 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
