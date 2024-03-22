@@ -339,27 +339,22 @@ public class SalesHomePage extends WebDriverUtility
 	public void getDetailsQualify(WebDriver driver) throws InterruptedException
 	{
 		Thread.sleep(2000);
-		System.out.println("1");
 		if (orgContactName.isDisplayed()) {
-			System.out.println("2");
 			System.out.println("Sales Lead ID is : "+salesLeadID.getText());
-			System.out.println("3");
 			System.out.println("Account Name or Organization Name :- "+orgAccountName.getText());
-			System.out.println("4");
 			System.out.println("Contact Name :- "+orgContactName.getText());
-			System.out.println("5");
 		}
 		else
 		{
 			System.out.println("Contact name is not displayed");
 		}
 		
-		System.out.println("6");
 	}
 	
 	public void clickOnTechnicalRequirementText(WebDriver driver) throws Exception
 	{
 		TechnicalRequirementTxtBtn.click();
+		System.out.println("Clicked on Technical Requirement Text");
 		Thread.sleep(2000);
 	}
 	
