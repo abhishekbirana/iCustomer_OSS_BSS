@@ -68,6 +68,8 @@ public class SalesHomeTest extends BaseClass
 		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
 
 		shp.clickOkBtn();
+		shp.getDetailsQualify(driver);
+		
 		
 		String existingRoutingProtocol = eUtil.readDataFromExcel("Technical Requirement", 1, 0);
 		String securityRequirements = eUtil.readDataFromExcel("Technical Requirement", 1, 1);

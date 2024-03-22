@@ -242,6 +242,15 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//div[@id='swal2-html-container']")
 	private WebElement proposeMessage;
 	
+	@FindBy(xpath = "//a[@id='ngb-nav-2']")
+	private WebElement salesLeadID;
+	
+	@FindBy(xpath = "//div[@class='org_name']/h4")
+	private WebElement orgAccountName;
+	
+	@FindBy(xpath = "//div[@class='org_name']/h5")
+	private WebElement orgContactName;
+	
 	
 	
 	
@@ -326,6 +335,16 @@ public class SalesHomePage extends WebDriverUtility
 		okBtn.click();
 	}
 	
+	
+	public void getDetailsQualify(WebDriver driver) throws InterruptedException
+	{
+		Thread.sleep(2000);
+		System.out.println("Sales Lead ID is : "+salesLeadID.getText());
+		System.out.println("Account Name or Organization Name :- "+orgAccountName.getText());
+		System.out.println("Contact Name :- "+orgContactName.getText());
+		
+	}
+	
 	public void clickOnTechnicalRequirementText(WebDriver driver) throws Exception
 	{
 		TechnicalRequirementTxtBtn.click();
@@ -373,6 +392,7 @@ public class SalesHomePage extends WebDriverUtility
 			}
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
 				enterCPEDetailsTxtBtn.click();
+				waitForElementToBeVisible(driver, noOfDevicesTxtField1);
 			}
 			else
 			{
@@ -382,6 +402,7 @@ public class SalesHomePage extends WebDriverUtility
 			handleDropdown(cpeModelDropdown1, cpeModel1);
 			noOfDevicesTxtField1.sendKeys(noOfDevices1);
 			jsclick(driver, addAnotherTxt);
+			waitForElementToBeVisible(driver, noOfDevicesTxtField2);
 			handleDropdown(oemModelDropdown2, oemModel2);
 			handleDropdown(cpeModelDropdown2, cpeModel2);
 			noOfDevicesTxtField2.sendKeys(noOfDevices2);

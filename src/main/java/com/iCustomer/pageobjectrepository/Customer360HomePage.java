@@ -172,6 +172,7 @@ public class Customer360HomePage extends WebDriverUtility {
 	public void enterAllRequiredDetails(WebDriver driver, String organizationName, String registrationNo, String industry, String description, String parentOrganization, String cluster, String tier, String organizationAddressLine1, String organizationAddressLine2, String pin, String country, String state, String city, String sPOCFirstName, String sPOCLastName, String sPOCEmail, String sPOCPhoneCode, String mobileNumber)
 	{
 		organisationName.sendKeys(organizationName);
+		System.out.println("Organization Name is : "+organizationName);
 		registrationNumber.sendKeys(registrationNo);
 		
 		industryDropdown.click();
@@ -199,10 +200,14 @@ public class Customer360HomePage extends WebDriverUtility {
 		handleDropdownList(driver, stateNameList, state);
 		cityName.sendKeys(city);
 		firstName.sendKeys(sPOCFirstName);
+		System.out.println("SPOC First Name is : "+sPOCFirstName);
 		lastName.sendKeys(sPOCLastName);
+		System.out.println("SPOC Last Name is : "+sPOCLastName);
 		emailId.sendKeys(sPOCEmail);
+		System.out.println("SPOC Email is : "+sPOCEmail);
 		handleDropdown(phoneCode, sPOCPhoneCode);
 		phoneNumber.sendKeys(mobileNumber);
+		System.out.println("SPOC Mobile Number is : "+mobileNumber);
 		
 	}
 	

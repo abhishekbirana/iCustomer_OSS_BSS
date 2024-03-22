@@ -72,12 +72,14 @@ public class CreateNewOrganizationTest extends BaseClass {
 		String city = eUtil.readDataFromExcel("Organization Details", 1, 12);
 		
 		String sPOCFirstName = eUtil.readDataFromExcel("Organization Details", 1, 13);
-		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 13, jUtil.getNameChange(sPOCFirstName, "FN", text));
+		String sPOCFirstNameNew = jUtil.getNameChange(sPOCFirstName, "FN", text);
+		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 13, sPOCFirstNameNew);
 		
 		String sPOCLastName = eUtil.readDataFromExcel("Organization Details", 1, 14);
-		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 14, jUtil.getNameChange(sPOCLastName, "LN", text));
+		String sPOCLastNameNew = jUtil.getNameChange(sPOCLastName, "LN", text);
+		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 14, sPOCLastNameNew);
 		
-		eUtil.writeDataIntoExistingExcelSheet("Sales Home", 1, 1, sPOCFirstName+" "+sPOCLastName);
+		eUtil.writeDataIntoExistingExcelSheet("Sales Home", 1, 1, sPOCFirstNameNew+" "+sPOCLastNameNew);
 		
 		String sPOCEmail = eUtil.readDataFromExcel("Organization Details", 1, 15);
 		String sPOCEmailNew = jUtil.getRandomMail(sPOCEmail, num);
@@ -90,7 +92,7 @@ public class CreateNewOrganizationTest extends BaseClass {
 		String mobileNumberNew = jUtil.getRandomMobileNumber();
 		eUtil.writeDataIntoExistingExcelSheet("Organization Details", 1, 17, mobileNumberNew);
 		
-		chp.enterAllRequiredDetails(driver, organizationNameNew, registrationNo, industry, description, parentOrganization, cluster, tier, organizationAddressLine1, organizationAddressLine2, pin, country, state, city, sPOCFirstName, sPOCLastName, sPOCEmail, sPOCPhoneCode, mobileNumber);
+		chp.enterAllRequiredDetails(driver, organizationNameNew, registrationNo, industry, description, parentOrganization, cluster, tier, organizationAddressLine1, organizationAddressLine2, pin, country, state, city, sPOCFirstNameNew, sPOCLastNameNew, sPOCEmailNew, sPOCPhoneCode, mobileNumberNew);
 		
 		chp.clickOnSaveInfoButton(driver);
 		
