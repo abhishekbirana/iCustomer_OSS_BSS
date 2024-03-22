@@ -400,7 +400,7 @@ public class SalesHomePage extends WebDriverUtility
 			waitForElementToBeVisible(driver, enterCPEDetailsTxtBtn);
 			if (enterCPEDetailsTxtBtn.isDisplayed()) {
 				enterCPEDetailsTxtBtn.click();
-				System.out.println("2");
+				scrollActionToElement(driver, saveBtn);
 				waitForElementToBeVisible(driver, noOfDevicesTxtField1);
 			}
 			else
