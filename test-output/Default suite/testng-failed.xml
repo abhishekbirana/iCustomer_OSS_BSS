@@ -5,15 +5,14 @@
     <classes>
       <class name="com.saleshub.SalesHomeTest">
         <methods>
-          <include name="amConfig"/>
-          <include name="asConfig"/>
-          <include name="bmConfig"/>
+          <include name="openSalesHomeModule"/>
+          <include name="launchiCustomerProduct"/>
           <include name="bcConfig"/>
+          <include name="bmConfig"/>
           <include name="bsConfig"/>
           <include name="fillPropose"/>
           <include name="fillDevelop"/>
           <include name="fillQualify"/>
-          <include name="acConfig"/>
         </methods>
       </class> <!-- com.saleshub.SalesHomeTest -->
     </classes>

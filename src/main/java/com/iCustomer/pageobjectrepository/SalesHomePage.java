@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
+import com.iCustomer.genericutilities.JavaUtility;
 import com.iCustomer.genericutilities.WebDriverUtility;
 
 /**
@@ -185,11 +186,7 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//label[text()='Delivery Timeframe* :']/../descendant::input[@class='form-control form-control-sm with_trash p-0 ng-untouched ng-pristine ng-valid']")
 	private WebElement deliveryTimeframeCalendarImg;
 	
-	@FindBy(xpath = "//div[contains(@aria-label,'March 25')]/span")
-	private WebElement march25Date;
 	
-	@FindBy(xpath = "//div[contains(@aria-label,'April 30')]/span")
-	private WebElement april30Date;
 	
 	@FindBy(xpath = "//input[@placeholder='Select Priority']")
 	private WebElement priorityDD;
@@ -482,8 +479,8 @@ public class SalesHomePage extends WebDriverUtility
 	{
 		jsclick(driver, deliveryTimeframeCalendarImg);
 		Thread.sleep(2000);
-		march25Date.click();
-		april30Date.click();
+		clickCurrentMonthDateXpath(driver, JavaUtility.currentMonthDateForXpath("startDate"));
+		clickCurrentMonthDateXpath(driver, JavaUtility.currentMonthDateForXpath("endDate"));
 		jsclick(driver, deliveryTimeframeCalendarImg);
 		jsclick(driver, priorityDD);
 		Thread.sleep(5000);
@@ -506,6 +503,13 @@ public class SalesHomePage extends WebDriverUtility
 		jsclick(driver, saveChangesBtn);
 		
 		
+	}
+	
+	
+	public void clickCurrentMonthDateXpath(WebDriver driver, String monthDate)
+	{
+		WebElement element = driver.findElement(By.xpath("//div[contains(@aria-label,'"+monthDate+"')]/span"));
+		element.click();
 	}
 	
 	public String getDevelopRecordMessage()

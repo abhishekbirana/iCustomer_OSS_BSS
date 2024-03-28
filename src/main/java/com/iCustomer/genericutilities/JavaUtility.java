@@ -1,6 +1,9 @@
 package com.iCustomer.genericutilities;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.Locale;
 import java.util.Random;
 
 //single line comment
@@ -145,5 +148,26 @@ public class JavaUtility {
         }
         
         return sb.toString();
+	}
+	
+	/**
+	 * This method will return Today date and next fifth date
+	 * @author abhishek.birana
+	 * @return
+	 */
+	public static String currentMonthDateForXpath(String init)
+	{
+        LocalDate currentDate = LocalDate.now();
+        if (init.equals("startDate"))
+        {
+        	return currentDate.format(DateTimeFormatter.ofPattern("MMMM d", Locale.ENGLISH));
+		}
+        else if (init.equals("endDate")) {
+			
+		}{
+        	return currentDate.plusDays(5).format(DateTimeFormatter.ofPattern("MMMM d", Locale.ENGLISH));
+		}
+          
+		
 	}
 }
