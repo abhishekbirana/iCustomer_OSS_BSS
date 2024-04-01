@@ -6,10 +6,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="com.MyWork.TaskTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="fillCreateNewTask"/>
+          <include name="acConfig"/>
+          <include name="openTasksModule"/>
+          <include name="launchiCustomerProduct"/>
+        </methods>
+      </class> <!-- com.MyWork.TaskTest -->
       <class name="com.saleshub.SalesHomeTest">
         <methods>
           <include name="asConfig"/>
           <include name="amConfig"/>
+          <include name="openSalesHomeModule"/>
           <include name="bmConfig"/>
           <include name="bcConfig"/>
           <include name="bsConfig"/>
