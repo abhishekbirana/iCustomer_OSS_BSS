@@ -1,6 +1,7 @@
 package com.saleshub;
 
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert; 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -65,9 +66,8 @@ public class SalesHomeTest extends BaseClass
 
 		System.out.println(shp.getSuccessMessage());
 
-		Assert.assertEquals(shp.getSuccessMessage(), "Successfully Updated");
-
-		shp.clickOkBtn();
+		Assert.assertEquals(shp.getSuccessMessage(), "New Direct Lead Created.");
+		shp.clickOkBtn(driver);
 		shp.getDetailsQualify(driver);
 		
 		
@@ -94,8 +94,8 @@ public class SalesHomeTest extends BaseClass
 		
 		System.out.println(shp.getTechReqMessage());
 		
-		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement is updated successfully");
-		shp.clickOkBtn2();
+		Assert.assertEquals(shp.getTechReqMessage(), "Technical Requirement updated successfully.");
+		shp.clickOkBtn2(driver);
 		
 		shp.clickOnSiteInformationTxtText(driver);
 		shp.uploadFile(driver);
@@ -127,8 +127,8 @@ public class SalesHomeTest extends BaseClass
 		
 		System.out.println(shp.getDevelopRecordMessage());
 		
-		Assert.assertEquals(shp.getDevelopRecordMessage(), "Develop Record updated !!");
-		shp.clickOkBtn4();
+		Assert.assertEquals(shp.getDevelopRecordMessage(), "Sale's opportunity developed successfully.");
+		shp.clickOkBtn4(driver);
 		shp.clickOnWonTxt(driver);
 	}
 	

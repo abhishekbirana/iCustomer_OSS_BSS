@@ -111,7 +111,7 @@ public class CreateNewOrganizationTest extends BaseClass {
 		chp.clickOnFinishBtn(driver);
 		
 		String actualText = chp.getOrgMessage(driver);
-		String expectedText = "Organisation Successfully Created";
+		String expectedText = "Organization onboarded successfully.";
 		
 		System.out.println(actualText);
 		

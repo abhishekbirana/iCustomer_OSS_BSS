@@ -78,7 +78,7 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//button[text()=' Save Info ']")
 	private WebElement saveInfoBtn;
 	
-	@FindBy(xpath = "//button[text()='ok']")
+	@FindBy(xpath = "//button[text()='Ok']")
 	private WebElement okBtn;
 	
 	@FindBy(xpath = "//div[@id='swal2-html-container']")
@@ -327,9 +327,9 @@ public class SalesHomePage extends WebDriverUtility
 		return successMessage.getText();
 	}
 	
-	public void clickOkBtn()
+	public void clickOkBtn(WebDriver driver)
 	{
-		okBtn.click();
+		jsclick(driver, okBtn);
 	}
 	
 	
@@ -431,9 +431,9 @@ public class SalesHomePage extends WebDriverUtility
 		return messageTechReq.getText();
 	}
 	
-	public void clickOkBtn2()
+	public void clickOkBtn2(WebDriver driver)
 	{
-		okBtn2.click();
+		jsclick(driver, okBtn2);
 	}
 	
 	public void clickOnSiteInformationTxtText(WebDriver driver) throws Exception
@@ -517,9 +517,9 @@ public class SalesHomePage extends WebDriverUtility
 		return developRecordMessage.getText();
 	}
 	
-	public void clickOkBtn4()
+	public void clickOkBtn4(WebDriver driver)
 	{
-		okBtn4.click();
+		jsclick(driver, okBtn4);
 	}
 	
 	public void clickOnWonTxt(WebDriver driver)
