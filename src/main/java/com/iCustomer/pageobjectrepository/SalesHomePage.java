@@ -153,7 +153,7 @@ public class SalesHomePage extends WebDriverUtility
 	@FindBy(xpath = "//div[@id='swal2-html-container']")
 	private WebElement messageTechReq;
 	
-	@FindBy(xpath = "//button[text()='ok']")
+	@FindBy(xpath = "//button[text()='Ok']")
 	private WebElement okBtn2;
 	
 	@FindBy(xpath = "//span[text()='Site Information ']")
