@@ -180,8 +180,8 @@ public class Customer360HomePage extends WebDriverUtility {
 		
 		descriptionTxt.sendKeys(description);
 		
-		parentOrganizationDropdown.click();
-		handleDropdownList(driver, parentOrganizationList, parentOrganization);
+//		parentOrganizationDropdown.click();
+//		handleDropdownList(driver, parentOrganizationList, parentOrganization);
 		
 		clusterDropwown.click();
 		handleDropdownList(driver, clusterList, cluster);
